@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import Home from "./pages/Home";
-import Menu from "./pages/Menu";
-import Story from "./pages/Story";
-import Gallery from "./pages/Gallery";
-import Contact from "./pages/Contact";
+import Home from "./Home";
+import Menu from "./Menu";
+import Story from "./Story";
+import Gallery from "./Gallery";
+import Contact from "./Contact";
 import NotFound from "./pages/NotFound";
-import CustomCursor from "./components/CustomCursor";
+import CustomCursor from "./CustomCursor";
 
 type Page = "home" | "menu" | "story" | "gallery" | "contact" | "404";
 
