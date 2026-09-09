@@ -4,7 +4,7 @@ import Menu from "./Menu";
 import Story from "./Story";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
-import NotFound from "./pages/NotFound";
+import NotFound from "./NotFound";
 import CustomCursor from "./CustomCursor";
 
 type Page = "home" | "menu" | "story" | "gallery" | "contact" | "404";
